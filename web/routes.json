@@ -1,0 +1,7 @@
+{
+  "/product/:id": "index.html",
+  "/product/search/:term": "index.html",
+  "/checkout": "index.html",
+  "*/" : "index.html",
+  "*" : "notfound.html"
+}

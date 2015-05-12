@@ -1,0 +1,14 @@
+[
+  {
+  "id": "123",
+  "name": "TV",
+  "description": "29' Full HD",
+  "price": "12,99"
+  },
+  {
+  "id": "124",
+  "name": "TV",
+  "description": "41' Full HD",
+  "price": "39,99"
+  }
+]

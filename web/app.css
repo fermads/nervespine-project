@@ -1,0 +1,18 @@
+.featuredProducts li,.header h1,.menu li{display:inline-block}
+a,abbr,acronym,address,article,aside,audio,b,big,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,l,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+body{line-height:1}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none}
+.wrapper{max-width:1200px;box-shadow:0 0 20px #eee;margin:0 auto}
+.footer{background-color:#eee;padding:30px;text-align:center}
+.header{padding:20px;background-color:#aaa}
+.header h1{font-size:200%;text-shadow:0 0 5px #666}
+.header h1 a{color:#fff}
+.header .checkout{float:right;padding:10px 0 0;color:#fff;text-decoration:underline}
+.header .searchBoxRegion{display:inline-block;margin:0 100px}
+.menu{background-color:silver;border-top:1px solid gray;padding:10px}
+.menu li{margin:0 auto;border-left:1px solid gray;padding:5px 20px}
+.menu li:first-child{border-left:none}
+.featuredProducts li{margin-left:20px}
+.searchBox button,.searchBox input{font-size:150%}
