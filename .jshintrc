@@ -85,6 +85,9 @@
     "globals"       : { // additional predefined global variables
         "app":true,
         "Handlebars":true,
-        "Nervespine":true
+        "Nervespine":true,
+        "describe":true,
+        "it":true,
+        "expect":true
     }
 }
