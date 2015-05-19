@@ -12,3 +12,14 @@ describe('Index', function() {
     expect(true).toEqual(true);
   });
 });
+
+describe('Menu', function() {
+  jasmine.Ajax.requests.filter(/menu/)[0].respondWith({
+    'status': 200,
+    'contentType': 'application/json',
+    'responseText': getFixture('menu.json')
+  });
+  it('Should load menu items', function() {
+    expect($('.menu li').length).toEqual(5);
+  });
+});

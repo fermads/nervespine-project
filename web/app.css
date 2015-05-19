@@ -14,5 +14,5 @@ a{text-decoration:none}
 .menu{background-color:silver;border-top:1px solid gray;padding:10px}
 .menu li{margin:0 auto;border-left:1px solid gray;padding:5px 20px}
 .menu li:first-child{border-left:none}
-.featuredProducts li{margin-left:20px}
 .searchBox button,.searchBox input{font-size:150%}
+.featuredProducts li{margin-left:20px}

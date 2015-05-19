@@ -24,9 +24,10 @@ gulp.task('default', function() {
 gulp.task('test', function() {
   gulp.src('web/app.js')
     .pipe(jip({
-      src: 'web/app.js',
+      // src: 'web/app.js',
       lib: ['web/lib.js', 'web/tpl.js'],
       runner:'test/spec/runner.html',
+      fixture: 'web/content/*.json',
       phantom: {
         bin: 'test/bin/phantomjs.exe'
       }
