@@ -1,11 +1,15 @@
 {
-  "name": "nervespine-project-example",
+  "name": "nervespine-project",
   "description": "Example project for Nervespine",
-  "version": "0.9.0",
-  "author": "Fernando MAdS <fermads@gmail.com>",
+  "version": "0.9.1",
+  "author": "fermads",
+  "homepage": "https://github.com/fermads/nervespine-project",
   "keywords": [
     "nervespine"
   ],
+  "bugs": {
+    "url": "https://github.com/fermads/nervespine-project/issues"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-compile-handlebars": "^0.4.4",
@@ -19,8 +23,7 @@
     "gulp-wrap": "^0.11.0"
   },
   "scripts": {
-    "build": "gulp",
-    "test": ""
+    "build": "gulp"
   },
   "license": "MIT"
 }
